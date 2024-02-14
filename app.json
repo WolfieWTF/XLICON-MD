@@ -11,11 +11,7 @@
       "value": "𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵"
   },
   "ALIVE_MESSAGE": {
-    "description": "*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ* 
-
-_ι αм ᴍυℓтι ԃєνιᴄє ωнαтѕαρρ вσт_ 
-_Cʀєαtєd вყ : 𝑾𝒐𝒍𝒇𝒊𝒆𝑾𝑻𝑭 𝒕𝒆𝒄𝒉 𝒊𝒏𝒇𝒐_
-_If any query : https://wa.me/2348129859507_",
+    "description": "",
      "required" :true
     },
     "AUTO_STATUS_SAVER": {
