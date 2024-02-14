@@ -17,13 +17,13 @@ const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', da
 //---------------------------------------------------------------------------
 cmd({
             pattern: "live",
-            desc: "Show Live Time Of Pakistan",
+            desc: "Show Live Time Of Nigeria",
             category: "fun",
 	          filename: __filename,
             use: '<group link.>',
         },
         async(Void, citel, text,{ isCreator }) => {
-var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Karachi' }).split(' ')[1]
+var time = new Date().toLocaleString('HI', { timeZone: 'Africa/Nigeria' }).split(' ')[1]
 var date = new Date().toLocaleDateString(get_localized_date)
 var wish = ''
 if (hrs < 12) wish = 'ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅'
@@ -45,7 +45,7 @@ const q = {
            "itemCount" : suhail[Math.floor(8*Math.random())],
            "status": 1,
            "surface" : 1,
-           "message": `❏ ${Config.botname} ➬ Whatsapp Bot BY Suhail SER`,
+           "message": `❏ ${Config.botname} ➬ Whatsapp Bot BY 𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵`,
            "orderTitle": "alive",
            "sellerJid": '923184474176@s.whatsapp.net' 
         }
