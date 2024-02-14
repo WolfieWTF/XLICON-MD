@@ -18,7 +18,7 @@ module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
   author:  process.env.PACK_AUTHER ||  '𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵',
   packname:  process.env.PACK_NAME || 'whatsapp bot',
-   
+   caption: process.env.CAPTION === undefined ? "𝙒𝞗𝙇𝙁𝞘𝞢 𝙒𝙏𝙁" : process.env.CAPTION,
   botname:   process.env.BOT_NAME === undefined ? "𝙒𝞗𝙇𝙁𝞘𝞢-𝞛𝘿" : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? '𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
