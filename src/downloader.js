@@ -402,7 +402,7 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭─┈ ⋞ 〈 Xʟɪᴄᴏɴ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
+╭─┈ ⋞ 〈 W𝙾𝙻𝙵𝙸𝙴-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
 ﹀
 ⌲🎐 *Youtube Player* ✅
 ⌲🐉 *Title:* ${anu.title}
@@ -822,7 +822,7 @@ async(Void, citel, text) => {
 if (!text) return await citel.reply(`*_Ohh PLease, Give Me Song Name_*`);
 let search = await yts(text)
 let i = search.all[1] ;
-let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio \n*•xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•*" ;
+let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio \n*•𝚆𝙾𝙻𝙵𝙸𝙴271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•*" ;
 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap })
 })
 */
