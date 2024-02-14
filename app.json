@@ -1,17 +1,21 @@
 { 
-  "name": "XLICON MD",
+  "name": "WOLFIE MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/3c341828d86ee7a89c73f.jpg",
+  "logo": "https://telegra.ph/file/96053700d8aede3fc3eb9.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Xlicon Bot", "Xlicon","Xlicon MD","theme bot","multi device","baileys"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME",
-      "value": "Salman Ahmad"
+      "value": "𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵"
   },
   "ALIVE_MESSAGE": {
-    "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
+    "description": "*ι αм σηℓιηє нσω ¢αη ι нєℓρ уσυ* 
+
+_ι αм ᴍυℓтι ԃєνιᴄє ωнαтѕαρρ вσт_ 
+_Cʀєαtєd вყ : 𝑾𝒐𝒍𝒇𝒊𝒆𝑾𝑻𝑭 𝒕𝒆𝒄𝒉 𝒊𝒏𝒇𝒐_
+_If any query : https://wa.me/2348129859507_",
      "required" :true
     },
     "AUTO_STATUS_SAVER": {
@@ -33,10 +37,10 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/3c341828d86ee7a89c73f.jpg"
+     "value": "https://telegra.ph/file/e7136feb5652382653ef9.jpg"
     },
     "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+    "description": "fuck,ass,rest,f**k",
      "required" :false
     },
    "ANTILINK_VALUES": {
@@ -57,7 +61,7 @@
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm",
@@ -70,7 +74,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "Put Owner Number here"
+       "value": "2348129859507"
   },
    "SESSION_ID": {
     "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to XLICON-MD Github Repo U can find the Scanner Option"
@@ -82,7 +86,7 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "",
+    "value": "mongodb+srv://wolfie:wolfie@cluster0.fi8txu3.mongodb.net/?retryWrites=true&w=majority",
     "required" :true
   },
     "THEME": {
@@ -91,7 +95,7 @@
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public"
+         "value": "private"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
@@ -100,12 +104,12 @@
   },
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "",
+    "value": "𝚆𝚘𝚕𝚏𝚒𝚎𝚆𝚃𝙵",
     "required" :true
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "",
+    "value": "WhatsApp bot",
     "required" :true
   },
   "heroku": {
